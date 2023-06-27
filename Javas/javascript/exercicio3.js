@@ -27,6 +27,39 @@
         //break;
 //} 
 
-for (let i = 0; i<= 11 ; i++) {
-   console.log("o resultado de 5x é", i ,"=", 5* i)
+//for (let i = 0; i<= 11 ; i++) {
+   //console.log("o resultado de 5x é", i ,"=", 5* i)
+//}
+
+
+//let i =0;
+
+//while(i <=10){
+  //console.log("O resultado de 5 X" ,i ,"=",5* i);
+ // i++
+
+//}
+
+
+let num1 = 5;
+let numb2 = 10;
+
+soma = num1+numb2;
+console.log(soma);
+
+function soma(x,y){
+  const resultado = x + y;
+  return resultado;
 }
+//console.log(soma(20,30));
+//console.log (soma(15 , 55));
+
+function saudacao(){
+  console.log("Boa noite pessoal")
+}
+console.log(saudacao());
+function saud(nome3){
+  return `Boa noite pessoal ${nome3}`;
+}
+
+console.log(saud("Maria"));
